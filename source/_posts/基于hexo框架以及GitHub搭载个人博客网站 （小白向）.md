@@ -64,7 +64,7 @@ tags: hexo
 </html>
 ```
 
-![helloAntHuang](../../../../img/helloAntHuang.png)
+![helloAntHuang](../images/helloAntHuang.png)
 
 
 
@@ -78,17 +78,17 @@ tags: hexo
 
 #### 2. 使用hexo框架进行个人博客搭建
 
-  我们可以在[hexo官网](../../../../img/hexo_install.png)
+  我们可以在[hexo官网](../images/hexo_install.png)
 
   之前我们安装的nodejs就是为了能够执行第一条命令全局安装hexo的插件。
 
-![安装Hexo插件](../../../../img/vscode_hexo.png)
+![安装Hexo插件](../images/vscode_hexo.png)
 
 按照上述步骤来的话，不出意外就是这样的。
 
-![初始化Hexo框架](../../../../img/hexo_init.png)
+![初始化Hexo框架](../images/hexo_init.png)
 
-根据提示按住Ctrl点击那个:4000的链接就可以跳转到对应页面![Hexo初始化页面](../../../../img/hexo_init_page.png)
+根据提示按住Ctrl点击那个:4000的链接就可以跳转到对应页面![Hexo初始化页面](../images/hexo_init_page.png)
 
 这上面有一个简单介绍，具体的使用说明可以看[官方文档](https://hexo.io/zh-cn/docs/)
 
@@ -100,13 +100,13 @@ tags: hexo
 
 > 这里博主一开始采用的这种方法，但是有些配置项比较麻烦，所以建议使用第二种方法，但是_congfig,yml的配置是一样的流程
 
-![hexo_theme](../../../../img/hexo_theme.png)
+![hexo_theme](../images/hexo_theme.png)
 
 > 但是用这种直接解压的方式可能会跑步起来 要进行一些其他的配置项 我不嫌麻烦 你们也会嫌麻烦把 （ 好吧我也嫌麻烦 x_x ）
 
-第二种方法就是在blog下的themes文件夹下打开终端，通过拉远程代码库的形式来部署主题文件。![拉取hexo主题代码](../../../../img/hexo_theme_clone.png)
+第二种方法就是在blog下的themes文件夹下打开终端，通过拉远程代码库的形式来部署主题文件。![拉取hexo主题代码](../images/hexo_theme_clone.png)
 
-![hexo-theme-matery](../../../../img/hexo-theme-matery.png)
+![hexo-theme-matery](../images/hexo-theme-matery.png)
 
 成功启动后的页面就是这个样子哒~~~ ，是不是有一种刚刚还是在拧螺丝现在突然发现火箭突然起飞的感觉。
 
@@ -116,13 +116,13 @@ tags: hexo
 
 > hexo新建文章的方式便是通过 hexo new '新建博文.md标题'
 
-![new_post](../../../../img/new_post.png)
+![new_post](../images/new_post.png)
 
-![新建的文章](../../../../img/hexo_new_post.png)
+![新建的文章](../images/hexo_new_post.png)
 
 但是这样子通过VSCode自带的.md编辑器写博文是一件非常蛋疼的事情，对的没错我们又要借助第三方的工具了，博主这里使用的是 [Typora](https://typoraio.cn/) 。我们可以使用类似的第三方Markdown编辑器来撰写我们的博文，然后将编辑排好版的.md文件直接贴到 source\posts 文件夹下再来发布博文 这样的体验会好一点。
 
-![typora](../../../../img/typora.png)
+![typora](../images/typora.png)
 
 
 
@@ -146,19 +146,19 @@ tags: hexo
 
 1. 首先是_config.yml内的一个配置，这里可以更改hexo的一个默认配置。
 
-![hexo_author](../../../../img/hexo_author.png)
+![hexo_author](../images/hexo_author.png)
 
 2. 但是页面上的一些文案之类的要怎么处理呢，这里最简单的一个 方法/ 思路 就是将文案进行复制然后进行全局搜索进行替换。
 
-![hexo_style](../../../../img/hexo_style.png)
+![hexo_style](../images/hexo_style.png)
 
 这里我们以 【我的梦想】为例子
 
-![hexo_theme_config](../../../../img/hexo_theme_config.png)
+![hexo_theme_config](../images/hexo_theme_config.png)
 
 3. 如果博文内含有图片的话要记得将图片文件放到编译生成的public里的img文件夹内部 并在博文.md内修改引用的图片地址。（ 不小心又肝到了4点，这一块后面在写！）
 
-![修改图片路径](../../../../img/change_img.png)
+![修改图片路径](../images/change_img.png)
 
 这里按照上图 将图片文件放在img文件下 并 更改文件路劲即可。 文件路径不清楚的可自行百度一下（一般按照上面这个路径也不会出错）
 
@@ -178,11 +178,11 @@ tags: hexo
 
 2. 登录GitHub并新建一个代码仓库
 
-![new_repository](../../../../img/new_repository.png)
+![new_repository](../images/new_repository.png)
 
 3. 设置github pages
 
-![初始化github pages](../../../../img/init_github_pages.png)
+![初始化github pages](../images/init_github_pages.png)
 
 选择好后拉到下面 点击 commit change 然后在回去刚刚那个页面就会看到有个提示
 
@@ -190,11 +190,11 @@ tags: hexo
 
 打开这个地址就可以访问到你的个人博客网站啦，接下来就是把我们用hexo框架搭载的博客挂载上去了
 
-![github_pages](../../../../img/github_pages.png)
+![github_pages](../images/github_pages.png)
 
 4. 连接Github与本地
 
-![git_bush](../../../../img/git_bush.png)
+![git_bush](../images/git_bush.png)
 
 首先右键打开git bash，然后输入下面命令：
 
@@ -225,17 +225,17 @@ cat ~/.ssh/id_rsa.pub
 
 5. 将远程代码库的代码下拉至本地
 
-![获取仓库里的远程代码链接](../../../../img/git_clone.png)
+![获取仓库里的远程代码链接](../images/git_clone.png)
 
 
 
-![拉取仓库里的远程代码](../../../../img/git_bash_clone.png)
+![拉取仓库里的远程代码](../images/git_bash_clone.png)
 
 > 输入 git clone [你复制的SSH链接] 
 >
 > 然后桌面上会出现一个拉下来的文件夹 这时候我们就把blog直接拷贝进去 并用 VSCode 打开这个文件夹
 
-![文件传输](../../../../img/blog_to_io.png)
+![文件传输](../images/blog_to_io.png)
 
 6. 配置_config.yml 下的deploy参数
 
