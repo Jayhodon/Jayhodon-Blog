@@ -8,9 +8,9 @@ tags: Demo
 1. **首先base64图片格式一般都是以下形式：**
    <!-- ‘data:image/jpeg;base64, […base64编码]’ -->
 
-2. **当我们在使用canvas绘图完成后可使用 .toDataURL( )来得到所绘制图像的base64编码数据形式**![toDataURL](../images/baseToImg_1.jpg)
+2. **当我们在使用canvas绘图完成后可使用 .toDataURL( )来得到所绘制图像的base64编码数据形式**![toDataURL](../images/Jayhodon-s-Demo/baseToImg_1.jpg)
 
-3. **当然也可以将图片格式转成base64格式**![imgToBase](../images/baseToImg_2.jpg)
+3. **当然也可以将图片格式转成base64格式**![imgToBase](../images/Jayhodon-s-Demo/baseToImg_2.jpg)
 
 4. 输出指定文件夹处理
    首先我们需要使用引入第三方工具类，即是
@@ -19,4 +19,4 @@ tags: Demo
    const fs = require(‘fs’); 
    ```
 
-![Save](../images/baseToImg_3.jpg)
+![Save](../images/Jayhodon-s-Demo/baseToImg_3.jpg)
