@@ -4,7 +4,9 @@ title: 基于hexo框架以及GitHub搭载个人博客网站 （小白向）
 
 date: 2022-07-13 04:07:56
 
-tags: hexo
+tags: [前端,hexo]
+
+categories: [前端, Demo]
 
 ---
 

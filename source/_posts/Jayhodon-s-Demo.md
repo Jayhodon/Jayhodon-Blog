@@ -1,7 +1,8 @@
 ---
 title: Jayhodon's Demo
-date: 2022-05-03 11:34:32
-tags: Demo
+date: 2022-03-03 11:34:32
+tags: [前端,Demo]
+categories: [前端,Demo]
 ---
 ### 将canvas所绘制的图像转成图片格式保存到本地
 
