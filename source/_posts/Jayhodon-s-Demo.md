@@ -3,7 +3,9 @@ title: Jayhodon's Demo
 date: 2022-03-03 11:34:32
 tags: [前端,Demo]
 categories: [前端,Demo]
+summary: '该文用于记录一些博主自己的一些小的demo代码块，以及有趣的代码实现。'
 ---
+
 ### 将canvas所绘制的图像转成图片格式保存到本地
 
 1. **首先base64图片格式一般都是以下形式：**

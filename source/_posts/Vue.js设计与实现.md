@@ -2,19 +2,9 @@
 title: Vue.js设计与实现
 date: 2023-06-12 22:47:50
 tags: [前端,Vue]
-
 categories: [前端, Vue]
-
+summary: '一篇针对Vue相关知识点整合的文，用于剖析Vue的相关原理以及特性梳理。'
 ---
-
-
-
-## Vue
-
-
-
-> 这是一篇针对Vue相关知识点整合的文，用于剖析Vue的相关原理以及特性梳理。
-
 
 
 ### Vue的设计模式
@@ -458,7 +448,7 @@ proxy.c = 70;
 
 **props & $emit:**
 
-```vue
+```js
 <Son @changeData="changeData"></Son>
 
 <script>
@@ -489,7 +479,7 @@ proxy.c = 70;
 
 **$parent & $children：**
 
-```vue
+```js
 <template>
   <div>子组件</div>
 </template>
@@ -518,7 +508,7 @@ export default{
 
 
 
-```vue
+```js
 <template>
   <div>
     <Son>父组件</Son>
@@ -556,7 +546,7 @@ export default{
 
 **provide $ inject：**
 
-```vue
+```js
 /*父组件*/
 export default{
  provide: {
@@ -576,7 +566,7 @@ export default{
 
 **$refs：**
 
-```vue
+```js
 <template>
   <div>
     <Son ref="son"></Son>
@@ -602,14 +592,14 @@ export default{
 
 需要先创建一个公共的eventBus.js，并将Vue实例暴露出去
 
-```vue
+```js
 import Vue from "vue"
 export default new Vue()
 ```
 
  在需要组件通信的组件A中引入eventBus.js，并通过$emit发布回调事件
 
-```vue
+```js
 <template>
   <div>
     <div>组件A</div>
@@ -634,7 +624,7 @@ export default{
 
 组件B中同样引入eventBus.js文件，并通过$on监听事件回调
 
-``` vue
+``` js
 <template>
   <div>组件B</div>
 </template
@@ -664,7 +654,7 @@ export default{
 
    父组件：
 
-   ```vue
+   ```js
    <template>
      <ChildComponent :message="parentMessage" />
    </template>
@@ -687,7 +677,7 @@ export default{
 
    子组件：
 
-   ```vue
+   ```js
    <template>
      <div>{{ message }}</div>
    </template>
@@ -699,11 +689,13 @@ export default{
    </script>
    ```
 
+   
+
 2. 子组件通过触发事件改变父组件的值：子组件可以通过 $emit 方法触发自定义事件，从而通知父组件进行相应的操作。
 
    父组件：
 
-   ```vue
+   ```js
    <template>
      <div>
        <ChildComponent :counter="counter" @increment="handleIncrement" />
@@ -734,7 +726,7 @@ export default{
 
    子组件：
 
-   ```vue
+   ```js
    <template>
      <button @click="handleClick">Increment</button>
    </template>

@@ -7,11 +7,14 @@ tags: [前端,个人知识库,JavaScript-Code]
 
 categories: [前端, 个人知识库]
 
+
+summary: '该文用于记录一些实用的 JavaScript 工具代码块'
+
 ---
 
 
 
->  该文用于记录一些实用的 JavaScript 工具代码块。
+。
 
 ## JavaScript
 
