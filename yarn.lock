@@ -951,6 +951,22 @@ hexo-cli@^4.0.0:
     resolve "^1.20.0"
     tildify "^2.0.0"
 
+hexo-cli@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/hexo-cli/-/hexo-cli-4.3.1.tgz#eb40e0ab2479ea089a9913eb0b1b5d3db58133a3"
+  integrity sha512-nYe7yJhXT7MwlDEpIAjneMfz0wnWTdIhRv+cVW2OPTw8JtG2X+8Y/sYhPDvQz/ZqjFRZ4qgiKFXN5orFJ/u1vg==
+  dependencies:
+    abbrev "^2.0.0"
+    bluebird "^3.7.2"
+    command-exists "^1.2.9"
+    hexo-fs "^4.1.1"
+    hexo-log "^4.0.1"
+    hexo-util "^2.5.0"
+    minimist "^1.2.5"
+    picocolors "^1.0.0"
+    resolve "^1.20.0"
+    tildify "^2.0.0"
+
 hexo-deployer-git@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmmirror.com/hexo-deployer-git/-/hexo-deployer-git-3.0.0.tgz#da82f7a3445df2b213926dc8d030ba5499b68cf3"
