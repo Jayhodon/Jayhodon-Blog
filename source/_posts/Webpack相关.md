@@ -8,7 +8,7 @@ date: 2023-04-19 18:45:56
 tags: [前端,webpack]
 
 categories: [前端,个人知识库]
-W
+
 summary: '一篇针对WebPack的手作指北，用于了解、记录、剖析相关原理知识点。'
 ---
 
@@ -27,7 +27,7 @@ webpack 整个庞大的体系大致可以抽象为三方面的知识：
 > 2. **loader 的作用**
 > 3. **plugin 架构与常用套路**
 
-三者协作构成 webpack 的主体框架：
+三者协作构成 webpack 的主体框架 ：
 
 ![主题架构](../images/Webpack%E7%9B%B8%E5%85%B3/webpack_arch.png)
 
